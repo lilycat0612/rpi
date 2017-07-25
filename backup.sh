@@ -4,9 +4,9 @@ sudo tar --exclude /home/pi/mnt --exclude /home/pi/Downloads -zcvf /backup/home.
 sudo tar -zcvf /backup/boot.tar.gz /boot
 sudo tar -zcvf /backup/etc.tar.gz /etc
 echo "Finish Backup"
-git add *
+sudo git add *
 echo "git add"
-git commit -m 'backup system'
+sudo git commit -m 'backup system'
 echo 'git commit'
-git push origin master
+sudo git push origin master
 echo "Finish push to GitHub"
