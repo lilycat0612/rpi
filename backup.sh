@@ -5,6 +5,8 @@ sudo tar -zcvf /backup/boot.tar.gz /boot
 sudo tar -zcvf /backup/etc.tar.gz /etc
 echo "Finish Backup"
 sudo git add *
+echo "git add"
 sudo git commit -m 'backup system'
+echo 'git commit'
 sudo git push origin master
 echo "Finish push to GitHub"
