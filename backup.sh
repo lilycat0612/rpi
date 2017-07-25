@@ -7,4 +7,4 @@ echo "Finish Backup"
 sudo git add *
 sudo git commit -m 'backup system'
 sudo git push origin master
-#echo "Finish push to GitHub"
+echo "Finish push to GitHub"
