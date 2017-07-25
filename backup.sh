@@ -8,5 +8,5 @@ sudo git add *
 echo "git add"
 sudo git commit -m 'backup system'
 echo 'git commit'
-sudo git push origin master
+git push origin master
 echo "Finish push to GitHub"
