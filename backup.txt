@@ -27110,3 +27110,6 @@ Finish Backup
 Finish Add
 Finish Commit
 Finish push to GitHub
+[master 0347328] backup system
+ 4 files changed, 7747 insertions(+)
+ rewrite etc.tar.gz (85%)
